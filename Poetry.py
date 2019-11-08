@@ -34,10 +34,18 @@ def lines_printed_random():
     for i in range(len(lines)):
         line_index = randint(1, random_lines-1)
         print(lines[line_index])
+
 def my_own_rearrange():
-    pass
+    response = input("Do you want to see a poem? Y or N?")
+    if response == "Y":
+        print(poem)
+    elif response == "N":
+        print("Too bad, so sad.")
+    else:
+        print(response)
 
 lines_printed_random()
+my_own_rearrange()
 #lines_printed_backwards(lines)
 #Testing code
 #lines_printed_backwards(poem_lines_list)
