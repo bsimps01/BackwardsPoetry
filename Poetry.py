@@ -43,7 +43,7 @@ def my_own_rearrange():
         print("Too bad, so sad.")
     else:
         print(response)
-
+#prints out a user input that requests them to print a Y for yes or N for no to write out the poem
 lines_printed_random()
 my_own_rearrange()
 #lines_printed_backwards(lines)
